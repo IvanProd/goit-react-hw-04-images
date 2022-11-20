@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { BiSearchAlt } from 'react-icons/bi';
+import { IoMdSearch } from 'react-icons/io';
 
 export const Header = styled.header`
   top: 0;
@@ -47,7 +47,7 @@ export const SearchButton = styled.button`
     opacity: 1;
   }
 `;
-export const SearchIcon = styled(BiSearchAlt)`
+export const SearchIcon = styled(IoMdSearch)`
   width: 30px;
   height: 30px;
 `;
